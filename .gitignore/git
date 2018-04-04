@@ -1,0 +1,65 @@
+git config --global user.name bebebe
+git config --global user.email hahaha@gmail.com
+
+git config -l
+
+git clone https://github.com/softservedata/lv304.git
+
+git remote -v
+
+
+git branch
+
+# remote branches
+git branch -a
+
+# delete all directory
+git rm -r -f src
+
+git config --global core.editor "notepad"
+set GIT_EDITOR=notepad
+
+git status
+
+git add .
+
+git commit -m "message"
+
+git push origin master
+git push
+
+git commit --amend -m "add 22 add"
+
+git branch dev
+git checkout dev
+
+git log -3
+git reflog
+
+
+git checkout -b test
+
+
+git checkout temp
+git merge test
+
+# delete local
+git branch -d test
+
+# delete on server
+git push origin :test
+
+
+git reset --hard ce17
+
+# delete on server
+git push origin -f proba
+
+delete data
+	    --hard    reset  	--soft
+LR	    +        +	       +		
+indx	  +        +	       .		
+Ws	    +        .	       .		
+
+# delete form git
+git rm --cached readme.txt
